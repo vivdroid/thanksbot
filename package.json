@@ -1,18 +1,29 @@
 {
-  "name": "webhooks",
+  "name": "thanks-bot",
   "version": "1.0.0",
-  "description": "A basic webhooks implementation sample",
+  "description": "A sample bot for Workplace",
+  "engines": {
+    "node": "6.10.2"
+  },
   "main": "app.js",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "crypto": "0.0.3",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.3"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "ejs": "2.5.6",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "pg": "6.x",
+    "request": "^2.79.0",
+    "sql": "^0.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbsamples/workplace-platform-samples"
+  },
+  "author": "Facebook Inc.",
+  "license": "See LICENSE file.",
+  "private": true
 }
